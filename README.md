@@ -10,9 +10,9 @@ This attestation is proof of the following claims:
 - The app code running is signed and verified to be the code published by the developer.
 - This copy of the app is running on a genuine Apple device.
 - The app running on the device was installed on the current device, and not transferred from another.
-- The keys to the attestation were generated and stored in the Secure Enclave on a genuine apple CPU.
+- The keys to the attestation were generated and stored in the Secure Enclave on a genuine Apple CPU.
 
-This initial attestation takes in an anti-reply challenge from the server, in this case a signed timestamp. 
+This initial attestation takes in an anti-replay challenge from the server, in this case a signed timestamp. 
 
 The device then sends an attestation which the server verifies cryptographically and with Apple.
 
