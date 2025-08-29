@@ -2,6 +2,9 @@
 
 This is how we handle device auth in the RoastReel iOS app.
 
+This app has optional sign in and uses device IDs in place of user IDs in most situations.
+We need to ensure devices are trusted and unique to safely allow them to use a limited free trial of our service.
+
 We first generate an Apple app attestation. 
 This attestation is proof of the following claims:
 - The app code running is signed and verified to be the code published by the developer.
